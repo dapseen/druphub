@@ -9,4 +9,5 @@ WORKDIR /public/html
 #copy file from my folder to image
 COPY . /public/html
 
-ENTRYPOINT [ "./home.php" ]
+EXPOSE 80
+
